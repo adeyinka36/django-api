@@ -1,0 +1,52 @@
+# Python bytecode and compiled files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Virtual environment
+env/
+venv/
+ENV/
+.VENV/
+
+# Django-specific
+db.sqlite3
+*.log
+media/
+staticfiles/
+
+# Sensitive files
+.env
+secrets.json
+
+# Pytest and coverage
+htmlcov/
+.coverage
+.tox/
+.pytest_cache/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Node.js (if used with Django for frontend)
+node_modules/
+npm-debug.log*
+
+# Docker
+*.log
+docker-compose.override.yml
