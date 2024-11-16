@@ -9,7 +9,7 @@ COPY ./requirements.dev.txt /tmp/requirements.dev.txt
 COPY ./app .
 EXPOSE 8000
 
-ARG DEV=false
+ARG DEV=true
 RUN python -m venv /py && \
     /py/bin/pip install --upgrade pip && \
     /py/bin/pip install -r /tmp/requirements.txt && \
